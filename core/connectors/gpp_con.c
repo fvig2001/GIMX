@@ -41,7 +41,12 @@ int gpp_connect(int id, const char* device)
       break;
     case CONSOLE_XB1:
       ret = C_TYPE_XONE_PAD;
+	  break;
+	case CONSOLE_SWITCH:
+      ret = C_TYPE_360_PAD;	  
       break;
+	default:
+	  printf("Unknown %d\n", report.console);
   }
 
   return ret;

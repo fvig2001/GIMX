@@ -2409,6 +2409,9 @@ void configFrame::LoadControllerType()
     case C_TYPE_360_PAD:
       MenuType->Check(ID_MENUITEM360, true);
       break;
+    case C_TYPE_SWITCH_PAD:
+      MenuType->Check(ID_MENUITEM360, true);
+      break;	  
     case C_TYPE_XBOX_PAD:
       MenuType->Check(ID_MENUITEMXBOX, true);
       break;

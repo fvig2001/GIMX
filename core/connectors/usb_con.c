@@ -735,6 +735,7 @@ int usb_forward_output(int usb_number, int joystick) {
   case C_TYPE_360_PAD:
   case C_TYPE_DS4:
   case C_TYPE_SIXAXIS:
+  case C_TYPE_SWITCH_PAD:  
       return joystick >= 0 && usb_states[usb_number].joystick_id == joystick;
   case C_TYPE_JOYSTICK:
   case C_TYPE_PS2_PAD:

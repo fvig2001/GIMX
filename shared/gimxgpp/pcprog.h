@@ -40,6 +40,7 @@
 #define     CONSOLE_XB360                  2
 #define     CONSOLE_PS4                    3
 #define     CONSOLE_XB1                    4
+#define     CONSOLE_SWITCH                 5
 
 /* Player LED State
  *  Each player LED of the controller can be in one of four states: 
