@@ -13,4 +13,4 @@ Links:
 * [Donations](https://blog.gimx.fr/give/gimx-donations-current/)
 
 Differences from main branch:
-1. Rudimentary support for Switch
+1. Rudimentary support for Switch via GPP
