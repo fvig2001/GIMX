@@ -3104,6 +3104,7 @@ void launcherFrame::checkFirmware()
     [C_TYPE_XBOX_PAD]   = "EMUXBOX.hex",
     [C_TYPE_DS4]        = "EMUPS4.hex",
     [C_TYPE_XONE_PAD]   = "EMUXONE.hex",
+	[C_TYPE_SWITCH_PAD] = "EMU360.hex",
     [C_TYPE_T300RS_PS4] = "", // unfinished
     [C_TYPE_G27_PS3]    = "EMUG27.hex",
     [C_TYPE_G29_PS4]    = "EMUG29PS4.hex",
